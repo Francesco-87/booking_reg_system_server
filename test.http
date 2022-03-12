@@ -1,0 +1,21 @@
+
+
+
+###
+GET http://localhost:3001/logout
+Accept: application/json
+
+###
+GET http://localhost:3001/refresh
+Accept: application/json
+
+
+###
+POST http://localhost:3001/login
+Content-Type: application/json
+
+{
+  "eMail": "peter678@chef.com",
+  "password": "678"
+}
+
