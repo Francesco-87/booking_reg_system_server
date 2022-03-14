@@ -24,6 +24,6 @@
     "react-tabs": "^3.2.3"
   },
   "engines" : {
-    "node" : "latest"
+    "node" : "16.14.0"
   }
 }
