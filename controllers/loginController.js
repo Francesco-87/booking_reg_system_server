@@ -25,7 +25,7 @@ const handleLogin = async (req, res) => {
                                 res.send({err: err})
                             }
                             //if a result is available, check for password
-                            if (result) {
+                            if (result.length > 0) {
 
                                 bcrypt.compare(password, result[0].customer_password, (error, response) => {
                                     if (response) {
