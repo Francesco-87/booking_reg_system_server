@@ -6,9 +6,10 @@ const connectDB =
 
         mysql.createConnection({
             multipleStatements: true,
-            user: 'adminUsername',
-            host: 'rds-booking-reg-system.cippyxna0z9o.us-east-1.rds.amazonaws.com',
-            password: 'Mira_1987',
+            host     : process.env.RDS_HOSTNAME,
+            user     : process.env.RDS_USERNAME,
+            password : process.env.RDS_PASSWORD,
+            port     : process.env.RDS_PORT,
             database: 'registrationsystem'
 
         });
