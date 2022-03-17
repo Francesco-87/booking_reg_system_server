@@ -17,7 +17,7 @@
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
     "jsonwebtoken": "^8.5.1",
-    "mysql": "^latest",
+    "mysql": "latest",
     "popups": "^1.1.3",
     "react": "^17.0.2",
     "react-router-dom": "^6.2.1",
