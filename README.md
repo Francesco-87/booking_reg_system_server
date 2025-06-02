@@ -1,2 +1,2 @@
 This is the counterpart to the frontend...
-See the booking_reg_system_
+See the booking_reg_system_client
